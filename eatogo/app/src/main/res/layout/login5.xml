@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login5"
+    android:paddingLeft="68dp"
+    android:paddingTop="130dp"
+    tools:context="com.venson.java007.Login1Activity">
+
+    <RelativeLayout
+        android:layout_width="276dp"
+        android:layout_height="349dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="-8dp">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="確認完成"
+            android:background="@null"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="32dp"
+            android:background="@null" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignTop="@+id/button11"
+            android:background="@null" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/button10"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button10"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            tools:ignore="VectorDrawableCompat" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
