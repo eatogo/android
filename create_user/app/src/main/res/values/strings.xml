@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">create_user</string>
+    <string name="msg_UserIdExist">User ID exists</string>
+    <string name="msg_AccountNotCreatedDueToErrorHappen">account not created due to error happens</string>
+    <string name="msg_InputEmpty">cannot be empty</string>
+    <string name="msg_ConfirmPasswordNotSameAsPassword">Confirm password not same as password</string>
+    <string name="msg_FailCreateAccount">Fail to create an account</string>
+    <string name="msg_SuccessfullyCreateAccount">Create an account successfully</string>
+    <string name="msg_NumbersOfOrders">Numbers of orders:</string>
+    <string name="text_UserId">User ID</string>
+    <string name="text_etUserPassword">Password</string>
+    <string name="text_etConfirmPassword">Confirm Password</string>
+    <string name="text_etName">Name</string>
+    <string name="text_etEmail">Email</string>
+    <string name="text_etPhone">Phone</string>
+    <string name="text_etAddress">Address</string>
+    <string name="text_tvUser">User name</string>
+    <string name="text_tvPassword">Password</string>
+    <string name="hint_etUser">User name</string>
+    <string name="hint_etPassword">password</string>
+    <string name="text_cbSavePassword">Save password</string>
+    <string name="hint_etSearch">Search location</string>
+    <string name="text_btSearch">Search</string>
+    <string name="text_ProductQty">Qty</string>
+</resources>

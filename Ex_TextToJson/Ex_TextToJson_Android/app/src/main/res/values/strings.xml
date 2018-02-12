@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ex_TextToJson</string>
+    <string name="text_UserId">User ID</string>
+    <string name="text_Password">Password</string>
+    <string name="text_Login">Login</string>
+    <string name="msg_NoNetwork">No Network</string>
+
+</resources>
